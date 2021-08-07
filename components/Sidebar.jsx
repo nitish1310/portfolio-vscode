@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import FilesIcon from './icons/FilesIcon';
 import GithubIcon from './icons/GithubIcon';
-import CodeIcon from './icons/CodeIcon';
+// import CodeIcon from './icons/CodeIcon';
 import PencilIcon from './icons/PencilIcon';
 import MailIcon from './icons/MailIcon';
 import AccountIcon from './icons/AccountIcon';
@@ -53,14 +53,14 @@ const Sidebar = () => {
               router.pathname === '/projects' && styles.active
             }`}
           >
-            <CodeIcon
+            {/* <CodeIcon
               fill={
                 router.pathname === '/projects'
                   ? 'rgb(225, 228, 232)'
                   : 'rgb(106, 115, 125)'
               }
               className={styles.icon}
-            />
+            /> */}
           </div>
         </Link>
         <Link href="/articles">
