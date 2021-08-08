@@ -24,6 +24,37 @@
   background-size: 100% 88%;
 }
 
+.flexContainer {
+  display: flex;
+}
+
+.flexItem {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.flexItem img {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.flexItem span {
+  padding-left: 20px;
+}
+
+.skills {
+  margin-top: 45px;
+}
+
+.comment {
+  color: #009b00bd;
+  margin: 30px 0 30px 0;
+}
+
+.space {
+  padding-left: 20;
+}
+
 @media screen and (max-width: 900px) {
   .container {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
