@@ -39,6 +39,10 @@ const ArticlesPage = ({ articles }) => {
             <img src="https://img.icons8.com/color/48/000000/css3.png" />
             <span>CSS3</span>
           </div>
+          <div className={styles.flexItem}>
+            <img src="https://img.icons8.com/color/48/000000/python--v1.png" />
+            <span>Python</span>
+          </div>
         </div>
         <div className={styles.comment}>&lt; !-- Keep Scrolling -- &gt;</div>
         <div>
@@ -68,6 +72,10 @@ const ArticlesPage = ({ articles }) => {
             {/* <Image src="/nextJsIcon.png" width={48} height={48} /> */}
             <img src="nextJsIcon.jpg" width={48} height={48} />
             <span>Next.js</span>
+          </div>
+          <div className={styles.flexItem}>
+            <img src="https://img.icons8.com/nolan/58/flask.png" />
+            <span>Flask</span>
           </div>
         </div>
         <div className={styles.comment}>&lt; !-- Keep Scrolling -- &gt;</div>
