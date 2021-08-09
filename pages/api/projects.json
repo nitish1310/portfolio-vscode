@@ -1,36 +1,73 @@
 [
   {
     "id": 1,
-    "name": "PCB Cupid",
-    "image": "https://imgur.com/tAZotn3.png",
-    "description": "E-commerce website for a PCB manufacturing company",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
-    "demo": "https://www.pcbcupid.com/"
+    "name": "Amazon Clone",
+    "image": "/amazon-clone.jpg",
+    "description": "Full E-Commerce application wih Stripe payment gateway",
+    "tags": [
+      "react.js",
+      "react-router",
+      "node.js",
+      "stripe",
+      "redux",
+      "firebase",
+      "material-ui"
+    ],
+    "source_code": "https://github.com/nitish1310/amazon-clone",
+    "demo": "https://clone-fcc92.web.app/"
   },
   {
     "id": 2,
-    "name": "Driwwwle",
-    "image": "https://imgur.com/kbGs6zH.png",
-    "description": "A platform for web developers to showcase their projects",
-    "tags": ["react", "node", "mongodb", "redux", "bulma"],
-    "source_code": "https://github.com/itsnitinr/driwwwle",
-    "demo": "http://driwwwle.herokuapp.com/"
+    "name": "Netflix Clone",
+    "image": "/netflix-clone.jpeg",
+    "description": "This is a clone of Netflix website built using React.JS as a Front-end & Firebase as Back-end. It's not a replica, and it doesn't have all the features of Netflix website. It contains the home page, browse page, and movie player.",
+    "tags": [
+      "react.js",
+      "node.js",
+      "redux",
+      "API",
+      "firebase",
+      "material-ui"
+    ],
+    "source_code": "https://github.com/nitish1310/Netflix-Clone",
+    "demo": "https://netflix-clone-92e7e.web.app/"
   },
   {
     "id": 3,
-    "name": "HealthyWays",
-    "image": "https://imgur.com/8FFqaX8.png",
-    "description": "A food ordering platform for healthy and home-cooked meals",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
-    "source_code": "https://github.com/itsnitinr/healthyways",
-    "demo": "https://healthyways.herokuapp.com/"
+    "name": "Google Clone",
+    "image": "/google-clone.jpg",
+    "description": "Google Clone With React ( Hooks + Context API ) and Google Custom Search JSON API ( Programmable Search Engine )",
+    "tags": [
+      "react",
+      "node",
+      "react-router",
+      "firebase",
+      "material-ui"
+    ],
+    "source_code": "https://github.com/nitish1310/Google-Clone",
+    "demo": "https://clone-e922e.web.app/"
   },
   {
     "id": 4,
+    "name": "Facebook Clone",
+    "image": "/facebook-clone.png",
+    "description": "Building facebook application clone using React and Firebase. This build covers the core functionality (uploading normal text, images & videos) of original facebook application. The best thing of the build is, it is fully responsive and looks better in most of the devices.",
+    "tags": [
+      "react",
+      "redux",
+      "next.js",
+      "material-ui"
+    ],
+    "source_code": "https://github.com/nitish1310/facebook-clone"
+  },
+  {
+    "id": 5,
     "name": "VSCode Portfolio",
     "image": "https://imgur.com/mKkz0iz.png",
     "description": "A themeable and developer-centric portfolio based on the VSCode",
-    "tags": ["next"],
+    "tags": [
+      "next"
+    ],
     "source_code": "https://github.com/itsnitinr/vscode-portfolio",
     "demo": "http://vscode-portfolio.vercel.app/"
   }
