@@ -19,7 +19,7 @@ const ArticlesPage = ({ articles }) => {
 
       <hr />
       <div className={styles.row}>
-        <div className={styles.column}>
+        <div className={styles.columnLeft}>
           <div className={styles.boxRounededCorner}>
             <div className={styles.flexItem}>
               <h3>
@@ -146,8 +146,8 @@ const ArticlesPage = ({ articles }) => {
             </div>
           </div>
         </div>
-        <div className={(styles.column, styles.image)}>
-          <Image src="/aboutImg.png" layout="fill" objectFit="contain" />
+        <div className={(styles.columnRight, styles.image)}>
+          <Image src="/aboutImg.gif" layout="fill" objectFit="contain" />
         </div>
       </div>
     </>

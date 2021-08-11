@@ -1,9 +1,9 @@
 import Experience from "../components/Experience";
 
-const AboutPage = () => {
+const ExperiencePage = () => {
   return (
     <>
-      <h1>About Page</h1>
+      {/* <h1>About Page</h1> */}
       <Experience />
     </>
   );
@@ -11,8 +11,8 @@ const AboutPage = () => {
 
 export async function getStaticProps() {
   return {
-    props: { title: "About" },
+    props: { title: "Experience" },
   };
 }
 
-export default AboutPage;
+export default ExperiencePage;

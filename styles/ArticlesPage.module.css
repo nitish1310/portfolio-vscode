@@ -86,21 +86,32 @@
 }
 
 /* Create four equal columns */
-.column {
+.columnLeft {
   flex: 50%;
-  padding: 20px;
+  padding: 10px;
+}
+
+.columnRight {
+  flex: 50%;
+  padding: 10px;
 }
 
 .image {
-  max-width: 100%;
-  height: auto;
+  width: 700px;
+  height: 589px;
   position: relative;
 }
 
 /* On screens that are 992px wide or less, go from four columns to two columns */
 @media screen and (max-width: 992px) {
-  .column {
-    flex: 50%;
+  .columnLeft {
+    flex: 70%;
+    padding: 10px;
+  }
+
+  .columnRight {
+    flex: 30%;
+    padding: 10px;
   }
 }
 
