@@ -49,6 +49,56 @@
   },
   {
     "id": 4,
+    "name": "Airbnb Clone",
+    "image": "/airbnb-clone.jpg",
+    "description": "Airbnb Clone with Next.js, Tailwind CSS, SSG, API, SSR, Date-picker, Mapbox Integration",
+    "tags": [
+      "next.js",
+      "react.js",
+      "tailwind-css",
+      "css",
+      "api",
+      "mapbox",
+      "date-picker",
+      "ssg"
+    ],
+    "source_code": "https://github.com/nitish1310/airbnb-clone",
+    "demo": "https://clone-e922e.web.app/"
+  },
+  {
+    "id": 5,
+    "name": "Slack Clone",
+    "image": "/slack-clone.jpg",
+    "description": "In Slack Clone application, I build and deploy a Slack Clone application. Used Technologies: React.js, Firebase, Material UI.",
+    "tags": [
+      "react.js",
+      "firebase",
+      "material-ui",
+      "google-auth"
+    ],
+    "source_code": "https://github.com/nitish1310/Slack-Clone",
+    "demo": "https://slack-clone-1c1ea.web.app/"
+  },
+  {
+    "id": 6,
+    "name": "Unichat Application",
+    "image": "/Unichat-Application.jpg",
+    "description": "In this project, I built a full-fledged Firebase Chat Application. With social authentication including Google and Facebook using Firebase, online statuses, great design, and functionality, image support, sound notifications, the ability to create multiple rooms, and much more.",
+    "tags": [
+      "react",
+      "react-router",
+      "firebase-auth",
+      "chat-engine",
+      "react-context-api",
+      "rest-api",
+      "firebase-google-login",
+      "firebase-facebook-login"
+    ],
+    "source_code": "https://github.com/nitish1310/unichat-application",
+    "demo": "https://unichat-application.web.app/"
+  },
+  {
+    "id": 7,
     "name": "Facebook Clone",
     "image": "/facebook-clone.png",
     "description": "Building facebook application clone using React and Firebase. This build covers the core functionality (uploading normal text, images & videos) of original facebook application. The best thing of the build is, it is fully responsive and looks better in most of the devices.",
@@ -61,7 +111,7 @@
     "source_code": "https://github.com/nitish1310/facebook-clone"
   },
   {
-    "id": 5,
+    "id": 8,
     "name": "VSCode Portfolio",
     "image": "https://imgur.com/mKkz0iz.png",
     "description": "A themeable and developer-centric portfolio based on the VSCode",
