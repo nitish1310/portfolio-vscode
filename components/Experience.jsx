@@ -35,18 +35,20 @@ function Experience() {
               iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
               icon={<WorkIcon />}
             >
-              <h3 className="vertical-timeline-element-title">
-                {element.title}
-              </h3>
-              <h5 className="vertical-timeline-element-subtitle">
-                {element.location}
-              </h5>
-              <p id="description">{element.description}</p>
-              {showButton && (
+              <span className={styles.fontColor}>
+                <h3 className="vertical-timeline-element-title">
+                  <span>{element.title}</span>
+                </h3>
+                <h5 className="vertical-timeline-element-subtitle">
+                  {element.location}
+                </h5>
+                <p id="description">{element.description}</p>
+              </span>
+              {/* {showButton && (
                 <a className={(styles.button, styles.workButton)} href="/">
                   {element.buttonText}
                 </a>
-              )}
+              )} */}
             </VerticalTimelineElement>
           );
         })}

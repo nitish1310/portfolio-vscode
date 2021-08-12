@@ -1,5 +1,5 @@
 .title {
-  font-size: 15em;
+  font-size: 20px;
   text-align: center;
   font-family: "Bebas Neue", sans-serif;
 }
@@ -9,13 +9,14 @@
 } */
 
 .verticalTimelineElementContent {
-  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
-    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 0.25em 0.5em 0 rgba(133, 133, 133, 0.15),
+    0 0.4em 1.25em 0 rgba(133, 133, 133, 0.15) !important;
   padding: 2em 3em !important;
 }
 
 .date {
-  color: rgb(201, 251, 255);
+  /* color: rgb(201, 251, 255);color: #404040; */
+  color: #404040;
 }
 
 #description {
@@ -45,11 +46,22 @@
   background-color: #f3bc3c;
 }
 
+.fontColor {
+  color: #404040;
+}
+
 @media only screen and (max-width: 1700px) {
   .verticalTimelineElementContent {
     display: block !important;
     float: none !important;
     color: rgb(44, 44, 44);
     margin-top: 1.5em;
+  }
+  .fontColor {
+    color: #404040;
+  }
+
+  .date {
+    color: #404040;
   }
 }
