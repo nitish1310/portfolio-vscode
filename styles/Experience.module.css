@@ -9,59 +9,108 @@
 } */
 
 .verticalTimelineElementContent {
-  box-shadow: 0 0.25em 0.5em 0 rgba(133, 133, 133, 0.15),
-    0 0.4em 1.25em 0 rgba(133, 133, 133, 0.15) !important;
-  padding: 2em 3em !important;
+  display: block !important;
+  float: none !important;
+  color: rgb(44, 44, 44);
+  margin-top: 1.5em;
+}
+.fontColor {
+  color: #404040;
+  padding-top: 0.25em;
+}
+
+.fontColor > h3 > span {
+  font-weight: bold;
 }
 
 .date {
-  /* color: rgb(201, 251, 255);color: #404040; */
   color: #404040;
 }
 
-#description {
-  margin: 1.5em 0 2em 0;
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0.5rem 0 1rem;
 }
 
-.button {
-  text-decoration: none;
-  padding: 0.5em 1em;
-  border-radius: 5px;
-  color: white;
-}
-
-.workButton {
+.tags span {
+  margin: 0.5rem 0.5rem 0 0;
+  padding: 0.2rem 0.5rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  transition: all 0.2s;
   background-color: #06d6a0;
 }
 
-.workButton:hover {
-  background-color: #0ac593;
+.space {
+  padding-left: 20px;
 }
 
-.schoolButton {
-  background-color: #f9c74f;
-}
-
-.schoolButton:hover {
-  background-color: #f3bc3c;
-}
-
-.fontColor {
-  color: #404040;
-}
-
-@media only screen and (max-width: 1700px) {
+@media only screen and (min-width: 1700px) {
   .verticalTimelineElementContent {
-    display: block !important;
-    float: none !important;
-    color: rgb(44, 44, 44);
-    margin-top: 1.5em;
-  }
-  .fontColor {
-    color: #404040;
+    box-shadow: 0 0.25em 0.5em 0 rgba(133, 133, 133, 0.15),
+      0 0.4em 1.25em 0 rgba(133, 133, 133, 0.15) !important;
+    padding: 2em 3em !important;
   }
 
   .date {
+    /* color: rgb(201, 251, 255);color: #404040; */
+    color: #efefef !important;
+  }
+
+  #description {
+    margin: 1.5em 0 2em 0;
+  }
+
+  .button {
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    color: white;
+  }
+
+  .workButton {
+    background-color: #06d6a0;
+  }
+
+  .workButton:hover {
+    background-color: #0ac593;
+  }
+
+  .schoolButton {
+    background-color: #f9c74f;
+  }
+
+  .schoolButton:hover {
+    background-color: #f3bc3c;
+  }
+
+  .fontColor {
     color: #404040;
+    padding-top: 0.25em;
+  }
+
+  .fontColor > h3 > span {
+    font-weight: bold;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.5rem 0 1rem;
+    cursor: pointer;
+  }
+
+  .tags span {
+    margin: 0.5rem 0.5rem 0 0;
+    padding: 0.2rem 0.5rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    transition: all 0.2s;
+    background-color: #06d6a0;
+  }
+
+  .space {
+    padding-left: 20px;
   }
 }

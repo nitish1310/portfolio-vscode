@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "../styles/Experience.module.css";
-import { FaBriefcase as WorkIcon } from "react-icons/fa";
+import { FaUserGraduate } from "react-icons/fa";
 // import { ReactComponent as SchoolIcon } from "./school.svg";
 
-import experienceList from "../pages/api/experienceList";
+import educationList from "../pages/api/educationList";
 
 import {
   VerticalTimeline,
@@ -13,24 +13,19 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { FaTerminal, FaCode, FaDatabase } from "react-icons/fa";
 
-function Experience() {
-  let workIconStyles = { background: "#06D6A0" };
+function Education() {
   let schoolIconStyles = { background: "#f9c74f" };
-
-  //   let result = Object.keys(experienceList).map((key) =>
-  //     console.log(experienceList[key].tags)
-  //   );
 
   return (
     <div>
       <h1>
-        <WorkIcon />
-        <span className={styles.space}>Experience</span>
+        <FaUserGraduate />
+        <span className={styles.space}>Education</span>
       </h1>
       <hr />
       <VerticalTimeline>
-        {experienceList.map((element) => {
-          let isWorkIcon = element.icon === "work";
+        {educationList.map((element) => {
+          let isWorkIcon = element.icon === "school";
           let showButton =
             element.buttonText !== undefined &&
             element.buttonText !== null &&
@@ -41,22 +36,25 @@ function Experience() {
               key={element.key}
               date={element.date}
               className={styles.date}
-              iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
-              icon={<WorkIcon />}
+              iconStyle={schoolIconStyles}
+              icon={<FaUserGraduate />}
             >
               <span className={styles.fontColor}>
                 <h3 className="vertical-timeline-element-title">
-                  <span>{element.title}</span>
+                  <span>{element.university}</span>
                 </h3>
                 <h4 className="vertical-timeline-element-title">
-                  <span>{element.company}, </span>
+                  <span>{element.degree} in </span>
+                  <span>{element.major}</span>
+                </h4>
+                <h4 className="vertical-timeline-element-title">
                   <span> {element.location}</span>
                 </h4>
                 {/* <p id="description">{element.description}</p> */}
                 <div className={styles.tags}>
-                  {element.tags?.map((tag) => (
-                    <span key={tag} className={styles.tags}>
-                      {tag}
+                  {element.courses?.map((course) => (
+                    <span key={course} className={styles.tags}>
+                      {course}
                     </span>
                   ))}
                 </div>
@@ -74,4 +72,4 @@ function Experience() {
   );
 }
 
-export default Experience;
+export default Education;

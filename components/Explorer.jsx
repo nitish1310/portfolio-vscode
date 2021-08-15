@@ -84,6 +84,17 @@ const Explorer = () => {
               <p>skills.json</p>
             </div>
           </Link>
+          <Link href="/education">
+            <div className={styles.file}>
+              <Image
+                src="/sass_icon.png"
+                alt="Sass Icon"
+                height={18}
+                width={18}
+              />{" "}
+              <p>education.sass</p>
+            </div>
+          </Link>
           <Link href="/experience">
             <div className={styles.file}>
               <Image
