@@ -87,7 +87,7 @@ const Explorer = () => {
           <Link href="/education">
             <div className={styles.file}>
               <Image
-                src="/sass_icon.png"
+                src="https://img.icons8.com/color/48/000000/services--v1.png"
                 alt="Sass Icon"
                 height={18}
                 width={18}

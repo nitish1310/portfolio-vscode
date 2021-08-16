@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/Experience.module.css";
+import styles from "../styles/Education.module.css";
 import { FaUserGraduate } from "react-icons/fa";
 // import { ReactComponent as SchoolIcon } from "./school.svg";
 
@@ -14,7 +14,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { FaTerminal, FaCode, FaDatabase } from "react-icons/fa";
 
 function Education() {
-  let schoolIconStyles = { background: "#f9c74f" };
+  let schoolIconStyles = { background: "#f9c74f", color: "#404040" };
 
   return (
     <div>

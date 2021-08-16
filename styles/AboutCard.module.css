@@ -1,0 +1,148 @@
+.space {
+  padding-left: 20px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.column1 {
+  /* flex-shrink: 0;  */
+  flex-basis: 60%;
+  padding: 20px;
+}
+
+.column2 {
+  /* align-items: "flex-end"; */
+  float: right;
+  padding: 20px;
+}
+
+.image {
+  width: 350px;
+  height: 350px;
+  /* position: relative; */
+}
+
+.headingName {
+  padding: 20px 0 10px 0;
+}
+
+.mainName {
+  color: #c770f0;
+}
+
+.social {
+  display: flex;
+  gap: 2%;
+  /* flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  column-gap: -75px; */
+  /* align-items: ;  */
+  /* margin-left: 50px; */
+  padding-top: 20px;
+}
+
+.scoialImg:hover {
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.button {
+  /* margin: 10em auto 0; */
+  display: inline-block;
+  font-size: 15px;
+  position: relative;
+  text-align: center;
+  padding: 13px 7px;
+  background: linear-gradient(45deg, #59adeb, #40c3af);
+  color: #fff;
+  box-shadow: 0 0.2em 0.2em rgba(0, 0, 0, 0.25);
+  border-radius: 0.2em;
+  transition: box-shadow 0.2s ease-in-out;
+  cursor: pointer;
+}
+.button:active {
+  background-color: #ccc;
+  box-shadow: 0 0 6px rgba(0, 121, 238, 0.6);
+  transition: box-shadow 0.1s ease-in-out;
+}
+.button:after {
+  content: "\0021e7";
+  position: absolute;
+  top: -0.4em;
+  left: 0;
+  right: 0;
+  display: block;
+  transform: rotate(180deg);
+  font-size: 5em;
+  opacity: 0;
+  text-shadow: 0 0 1em #000;
+  transition: opacity 0.3s ease-in-out, font-size 0.3s ease-in-out,
+    top 0.3s ease-in-out;
+  box-sizing: border-box;
+  text-align: center;
+  color: #fff;
+}
+.button:active:after {
+  font-size: 1em;
+  opacity: 1;
+  transition: none;
+  top: 0.3em;
+}
+.button:hover {
+  box-shadow: 0 0.1em 0.25em rgba(0, 0, 0, 0.25);
+  background: #1e90ff;
+}
+
+.button > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btnSpace {
+  padding-left: 10px;
+}
+
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+}

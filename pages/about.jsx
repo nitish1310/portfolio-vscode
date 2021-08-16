@@ -1,10 +1,9 @@
-import Experience from "../components/Experience";
+import AboutCard from "../components/AboutCard";
 
 const AboutPage = () => {
   return (
     <>
-      <h1>About Page</h1>
-      <Experience />
+      <AboutCard />
     </>
   );
 };
