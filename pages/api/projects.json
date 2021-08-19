@@ -120,5 +120,16 @@
     ],
     "source_code": "https://github.com/itsnitinr/vscode-portfolio",
     "demo": "http://vscode-portfolio.vercel.app/"
+  },
+  {
+    "id": 9,
+    "name": "NextJS Landing Page",
+    "image": "/nextjs-landing-page.JPG",
+    "description": "This project is the NextJS Landing Page. In this application, I build and deploy NextJS Landing Page. Used Technologies: Next.js, React.js, Firebase, Theme UI",
+    "tags": [
+      "next"
+    ],
+    "source_code": "https://github.com/nitish1310/NextJS-Landing-Page",
+    "demo": "https://nextjs-landing-page.web.app/"
   }
 ]
