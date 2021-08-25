@@ -131,5 +131,18 @@
     ],
     "source_code": "https://github.com/nitish1310/NextJS-Landing-Page",
     "demo": "https://nextjs-landing-page.web.app/"
+  },
+  {
+    "id": 10,
+    "name": "Autonomus-Car",
+    "image": "/autonomus-car.png",
+    "description": "This project is about the setting up of an autonomous raspberry pi-car and training it with data mining models.",
+    "tags": [
+      "python",
+      "raspberry-pi",
+      "cnn"
+    ],
+    "source_code": "https://github.com/nitish1310/Autonomus-Car",
+    "demo": "https://youtu.be/-vgHj1xRWt0"
   }
 ]
